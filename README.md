@@ -8,6 +8,8 @@
 ![Tests](https://img.shields.io/badge/API%20tests-30%20passing-green)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+**Live demo:** [crm-web-balaji.onrender.com](https://crm-web-balaji.onrender.com) — click "Fill demo credentials" on the login page. Free-tier hosting: the first visit after idle can take up to a minute to wake, and the demo database reseeds on every restart.
+
 ## What's inside
 
 - **Dashboard** — KPI cards (new leads, conversion rate, pipeline value, overdue follow-ups), an 8-week trend chart, conversion funnel, and source-performance report — every number computed server-side
