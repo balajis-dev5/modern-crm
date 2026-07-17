@@ -1,9 +1,9 @@
 # Modern CRM
 
-> Full-stack CRM — lead pipeline with stage history, customers, follow-up queues, analytics — a typed React 19 SPA over a Laravel 12 REST API.
+> Full-stack CRM — lead pipeline with stage history, customers, follow-up queues, analytics — a typed React 19 SPA over a Laravel 13 REST API.
 
 ![React 19](https://img.shields.io/badge/React-19-087EA4?logo=react&logoColor=white)
-![Laravel 12](https://img.shields.io/badge/Laravel-12-FF2D20?logo=laravel&logoColor=white)
+![Laravel 13](https://img.shields.io/badge/Laravel-13-FF2D20?logo=laravel&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)
 ![Tests](https://img.shields.io/badge/API%20tests-30%20passing-green)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -20,7 +20,7 @@
 
 ## Stack
 
-React 19 · TypeScript (strict) · Vite · Tailwind CSS v4 · React Router — Laravel 12 · PHP 8.4 · SQLite/PostgreSQL · PHPUnit (30 tests)
+React 19 · TypeScript (strict) · Vite · Tailwind CSS v4 · React Router — Laravel 13 · PHP 8.4 · SQLite/PostgreSQL · PHPUnit (30 tests)
 
 ## Quick start
 
@@ -89,7 +89,7 @@ Covers the auth flow (login, refresh rotation, reuse detection), RBAC, lead CRUD
 
 ```
 modern-crm/
-├── api/    # Laravel 12 — FormRequests, API Resources, thin controllers, PHPUnit
+├── api/    # Laravel 13 — FormRequests, API Resources, thin controllers, PHPUnit
 └── web/    # React 19 — pages + components + typed lib/api client (fetch, auto-refresh)
 ```
 
