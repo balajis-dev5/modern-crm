@@ -12,5 +12,5 @@ RUN composer install --no-dev --no-scripts --no-autoloader
 COPY . .
 RUN composer dump-autoload --optimize
 
-EXPOSE 8000
-CMD ["sh", "-c", "php artisan migrate --force --seed && php artisan serve --host=0.0.0.0 --port=8000"]
+EXPOSE 8080
+CMD ["sh", "docker/start.sh"]
